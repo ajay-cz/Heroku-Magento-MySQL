@@ -15,7 +15,8 @@
     "prefer-lowest": false,
     "platform": {
         "ext-soap": "*",
-        "ext-gd": "*"
+        "ext-gd": "*",
+		"ext-mbstring": "*"
     },
     "platform-dev": []
 }
