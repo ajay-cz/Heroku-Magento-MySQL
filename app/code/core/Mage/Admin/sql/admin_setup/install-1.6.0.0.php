@@ -190,4 +190,7 @@ $table = $installer->getConnection()
     ->setComment('Admin User Table');
 $installer->getConnection()->createTable($table);
 
+$installer->run("INSERT INTO admin_role (role_id,  parent_id, tree_level, sort_order, role_type, user_id, role_name) VALUES (1,0,1,1,'G',0,'Administrator')");
+$installer->run("INSERT INTO admin_rule (rule_id,  role_id, resource_id, privileges, assert_id, role_type, permission) VALUES (8,1,'all',null,0,'G','allow')");
+
 $installer->endSetup();
