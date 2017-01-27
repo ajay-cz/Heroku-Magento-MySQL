@@ -4,5 +4,5 @@
 	"repository": "https://github.com/technomile/Heroku-Magento-MySQL",
 	"logo": "http://technomile.github.io/img/forcegento.gif",
 	"keywords": ["magento", "heroku", "php", "mysql", "apache", "apache2", "nginx"],
-	"addons": ["cleardb:punch","newrelic:wayne","sendgrid:starter"]
+	"addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"]
 }
